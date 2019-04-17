@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Delicious</string>
+  <string name="feature_text">Feature</string>
+  <string name="feature_error_message">There is an error getting the data: \n</string>
+  <string name="feature_error_notification">You have already booked it! If you want to clean your basket please press a floating button</string>
+</resources>
