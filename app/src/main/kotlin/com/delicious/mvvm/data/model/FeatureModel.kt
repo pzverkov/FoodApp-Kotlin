@@ -18,7 +18,7 @@ data class FeatureModel(
 
         @Json(name = "name")
         @ColumnInfo(name = "name")
-        val name: String,
+        val name: String?,
 
         @Json(name = "type")
         @ColumnInfo(name = "type")
@@ -50,6 +50,9 @@ data class FeatureModel(
 
         @Json(name = "restaurant")
         @ColumnInfo(name = "restaurant")
-        val restaurant: RestaurantModel
+        val restaurant: RestaurantModel,
+
+        @ColumnInfo(name = "ordered")
+        var ordered: Boolean? = false
 
 ) : Serializable

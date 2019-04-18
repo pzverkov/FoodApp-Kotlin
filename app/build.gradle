@@ -153,6 +153,8 @@ dependencies {
   kapt AppDependencies.daggerCompiler
   kapt AppDependencies.daggerProcessor
   kapt AppDependencies.lifecycleCompiler
+  kapt AppDependencies.glide
+  kapt AppDependencies.glideCompiler
 
   compileOnly AppDependencies.glassfishAnnotation
 
@@ -194,3 +196,4 @@ dependencies {
 
   kaptTest AppDependencies.daggerCompiler
 }
+

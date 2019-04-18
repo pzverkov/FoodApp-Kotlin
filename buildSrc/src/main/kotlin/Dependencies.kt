@@ -66,6 +66,7 @@ object AppDependencies {
     const val daggerSupport = "com.google.dagger:dagger-android-support:${Versions.dagger}"
     const val glassfishAnnotation = "org.glassfish:javax.annotation:${Versions.glassfishAnnotation}"
     const val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
+    const val glideCompiler = "com.github.bumptech.glide:compiler:${Versions.glide}"
     const val gson = "com.google.code.gson:gson:${Versions.gson}"
     const val javaxAnnotation = "javax.annotation:jsr250-api:${Versions.javaxAnnotation}"
     const val javaxInject = "javax.inject:javax.inject:${Versions.javaxInject}"
@@ -112,3 +113,4 @@ object TestDependencies {
     const val supportRules = "com.android.support.test:rules:${Versions.androidSupportRules}"
     const val supportRunner = "com.android.support.test:runner:${Versions.androidSupportRunner}"
 } 
+

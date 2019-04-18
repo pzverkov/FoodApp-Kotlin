@@ -10,12 +10,7 @@ import com.squareup.moshi.Json
 )
 data class GeometryModel(
 
-    @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = "id")
-    val id: String,
-
     @Json(name = "type")
-    @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "type")
     val type: String
 )
