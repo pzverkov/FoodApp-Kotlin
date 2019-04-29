@@ -25,4 +25,4 @@ Languages, libraries and tools used
 
 ## Architecture
 
-This project follows Android architecture guidelines that are based on MVVM.
+This project follows Android architecture guidelines.
